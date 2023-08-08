@@ -1,17 +1,28 @@
-# Robotic-Process-Automation
-# Customer Care Job Card Creation Bot
+# Robotic Process Automation
+<!-- Introduction of Author -->
+This project was done by Willan Njenga, a student of Moringa
 
-## Requirements:
-- UiPath Studio and Robot Agent connected to your machine and a Chrome UiPath Extention Enabled
-- Microsoft Excel (Office)
-- Windows 7 or higher
-- Any SaaS based ticketing system - I'm using Zoho for this one - already logged in on chrome (or whatever browser so long as you have the necessary plugins specific to that browser installed as well).
-- Run the Main file in UiPath studio.
+<!--Project Description  -->
 
-## How it works
-- A UiPath based Robot Agent will trigger the automated bot with Hotkey keyboard trigger/shortcuts (ALT +S).
-- The bot will then open and read the Request.xlsx excel sheets from the 'Requests' folder,The excel file has the customer details and request.
-- The details obtaine from the excel doc will be used to automatially create a job card (a ticket) in Zoho desk website application.
-- Once the ticket is created, the request file file will be moved to the 'Processed' folder.
-- The Robot agent can place another 'request.xlsx' file in the Request folder and use 'ALT +S' to create another jobcard
-- The customare care assistant has to use the 'STOP' option in the UiPath Studio to stop the automation.
+## Project Description
+
+This project is about automating workflows by use of bots to automate once triggered.
+
+## Live URL
+
+The link to the project's repo is https://github.com/WNJENGA/Robotic-Process-Automation
+
+## Technologies Used
+
+* UiPath Studio
+* Zoho Desk Application
+* MS Excel
+
+
+## Licence/Copyright
+
+For licence/copyright information check on the <a href="https://github.com/WNJENGA/Robotic-Process-Automation/blob/main/LICENSE"><strong>Licence</strong></a> file.
+
+## Credits
+
+Moringa School
